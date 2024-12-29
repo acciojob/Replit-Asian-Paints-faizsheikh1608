@@ -10,7 +10,7 @@ const gridContainer = document.getElementById('grid-container');
 
     // Change color functionality
     const changeButton = document.getElementById('change_button');
-    const resetButton = document.getElementById('Reset');
+    const resetButton = document.getElementById('reset_button');
 
     changeButton.addEventListener('click', () => {
       const blockId = document.getElementById('block_id').value;
