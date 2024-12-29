@@ -38,4 +38,3 @@ const gridContainer = document.getElementById('grid-container');
       document.getElementById('block_id').value = '';
       document.getElementById('colour_id').value = '';
     });
-  </script>
