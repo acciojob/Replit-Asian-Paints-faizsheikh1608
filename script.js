@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const gridContainer = document.getElementById('grid-container');
+const gridContainer = document.querySelector('.grid-container');
     for (let i = 1; i <= 9; i++) {
       const gridItem = document.createElement('div');
       gridItem.className = 'grid-item';
@@ -13,8 +13,8 @@ const gridContainer = document.getElementById('grid-container');
     const resetButton = document.getElementById('reset_button');
 
     changeButton.addEventListener('click', () => {
-      const blockId = document.getElementById('block_id').value;
-      const color = document.getElementById('colour_id').value;
+      const blockId = document.querySelector('.block_id').value;
+      const color = document.querySelector('.colour_id').value;
 
       // Reset all blocks to transparent
       document.querySelectorAll('.grid-item').forEach(item => {
