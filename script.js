@@ -9,8 +9,8 @@ const gridContainer = document.querySelector('.grid-container');
     }
 
     // Change color functionality
-    const changeButton = document.getElementById('change_button');
-    const resetButton = document.getElementById('reset_button');
+    const changeButton = document.querySelector('.change_button');
+    const resetButton = document.querySelector('.reset_button');
 
     changeButton.addEventListener('click', () => {
       const blockId = document.querySelector('.block_id').value;
